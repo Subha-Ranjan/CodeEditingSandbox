@@ -8,11 +8,11 @@ export const LANGUAGE_VERSIONS = {
   };
   
   export const CODE_SNIPPETS = {
-    javascript: `\nfunction greet(name) {\n\tconsole.log("Hello, " + name + "!");\n}\n\ngreet("Alex");\n`,
-    typescript: `\ntype Params = {\n\tname: string;\n}\n\nfunction greet(data: Params) {\n\tconsole.log("Hello, " + data.name + "!");\n}\n\ngreet({ name: "Alex" });\n`,
-    python: `\ndef greet(name):\n\tprint("Hello, " + name + "!")\n\ngreet("Alex")\n`,
-    java: `\npublic class HelloWorld {\n\tpublic static void main(String[] args) {\n\t\tSystem.out.println("Hello World");\n\t}\n}\n`,
+    javascript: `\nfunction helloFromSubhaRanjan(name) {\n\tconsole.log("Hello from " + name + ",");\n}\n\nhelloFromSubhaRanjan("Subha Ranjan Bhowmick");\nconsole.log("Enjoy coding in Javascript 🧑‍💻")`,
+    typescript: `\ntype Params = {\n\tname: string;\n}\n\nfunction helloFromSubhaRanjan(data: Params) {\n\tconsole.log("Hello from " + data.name + "");\n}\n\nhelloFromSubhaRanjan({ name: "Subha ranjan Bhowmick," });\n\nconsole.log("Enjoy coding in Typescript 🧑‍💻");\n`,
+    python: `\ndef helloFromSubhaRanjan(name):\n\tprint("Hello from " + name + ",")\n\nhelloFromSubhaRanjan("Subha Ranjan Bhowmick")\nprint("Enjoy coding in Python 🧑‍💻")`,
+    java: `\npublic class HelloFromSubhaRanjan {\n\tpublic static void main(String[] args) {\n\t\tSystem.out.println("Hello from Subha Ranjan Bhowmick,");\n\t\tSystem.out.println("Enjoy coding in Java !!!");\n\t}\n}\n`,
     csharp:
-      'using System;\n\nnamespace HelloWorld\n{\n\tclass Hello { \n\t\tstatic void Main(string[] args) {\n\t\t\tConsole.WriteLine("Hello World in C#");\n\t\t}\n\t}\n}\n',
-    php: "<?php\n\n$name = 'Alex';\necho $name;\n",
+      'using System;\n\nnamespace HelloFromSubha\n{\n\tclass HelloFromSubhaRanjan { \n\t\tstatic void Main(string[] args) {\n\t\t\tConsole.WriteLine("Hello from Subha Ranjan Bhowmick,");\n\t\t\tConsole.WriteLine("Enjoy coding in C# !!!");\n\t\t}\n\t}\n}\n',
+    php: "<?php\n\n$helloFromSubha = 'Hellow from Subha Ranjan Bhowmick';\necho $helloFromSubha;\necho '\nEnjoy coding in PHP 🧑‍💻';\n?>",
   };
